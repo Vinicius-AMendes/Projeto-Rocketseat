@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   /*
   background-image: url(./assets/bg-mobile.jpg);
@@ -17,12 +23,12 @@ body * {
 
 #container {
   width: 360px;
-  border: 1px solid red;
-  margin: auto;
+  margin: 56px auto 0px;
 }
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 #profile img {
@@ -30,6 +36,7 @@ body * {
 }
 
 #profile p {
-  font-height: 500;
+  font-weight: 500;
   line-height: 24px;
+  margin-top: 8px;
 }
